@@ -1,0 +1,233 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.banner-container {
+    height: 100vh;
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.banner-details {
+    text-align: right;
+    margin-right: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100vh;
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 900;
+
+}
+
+.banner-description {
+    font-size: 16px;
+    width: 40%;
+    color: #444343;
+}
+.banner-details button{
+    height: 60px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F15B22;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.introduction{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+
+}
+.introduction h2{
+    width: 40%;
+    font-size: 35px;
+}
+.introduction img{
+    width: 500px;
+    height: 600px;
+}
+.introduction span{
+    color: #F15B22;
+}
+
+.failures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 100px;
+}
+
+.failures img {
+    width: 100%;
+
+}
+
+.failures div {
+    width: 30%;
+}
+
+.failures-details h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.failures-details p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+}
+
+.failures-details li {
+    list-style: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.failures-details li i {
+    color: #16D887;
+}
+.my-plan-container{
+    margin-bottom: 170px;
+}
+
+.my-plan-container h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 150px;
+}
+
+
+.my-plans {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.my-plans img {
+    width: 100px;
+    height: 100px;
+
+}
+.contact{
+   position: relative;
+   margin: 70px auto;
+   width: 50%;
+   
+}
+.contact div{
+    background-image: url('../images/watch.png');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 40px 70px;
+    
+}
+.contact h2,.contact button{
+    
+    position: relative;
+    z-index: 2;
+}
+.contact h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.contact img{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    
+}
+.contact button{
+    height: 60px;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #F15B22;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 40vh;
+    color: white;
+    padding: 0 250px;
+}
+
+.footer {
+    width: 70%;
+
+}
+
+.footer h2,.subscribe h2 {
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+.footer p {
+    margin-top: 10px;
+}
+
+.footer-description {
+    width: 40%;
+
+}
+
+.icon {
+    margin-top: 10px;
+}
+
+.subscribe {
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.subscribe input {
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    margin-bottom: 10px;
+    color: #F3F3F3;
+    font-weight: bold;
+   
+}
+
+.btn-subscribe {
+    border-radius: 5px;
+    font-size: 20px ;
+    width: 140px;
+    height: 60px;
+    background-color: #FFFFFF;
+    color: #F15B22;
+    
+}
